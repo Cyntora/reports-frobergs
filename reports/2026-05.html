@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="sv-SE">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Fröbergs — Rapport maj 2026 | Cyntora</title>
+  <link rel="icon" type="image/svg+xml" href="../assets/cyntora-favicon.svg">
+  <link rel="apple-touch-icon" href="../assets/cyntora-favicon.svg">
+  <link rel="stylesheet" href="../assets/cyntora-reports-v2.css?v=71e0812c">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap">
+  <style id="client-theme">:root{ --brass:#014985; --brass-soft:rgba(1, 73, 133, 0.10); --bg-cream:#FFFFFF; --bg-cream-soft:#F7F9FC; --bg-dark:#0A4070; --bg-dark-soft:#063055; --ink:#1A1A1A; --ink-on-dark:#FFFFFF; --ink-muted:#5A6478; --ink-muted-dark:rgba(255, 255, 255, 0.78); --border:#E2E5EA; --border-dark:rgba(255, 255, 255, 0.15); --font-display:"Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; --font-body:"Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;  }</style>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js" defer></script>
+  <script src="../assets/cyntora-charts.js?v=3039954c" defer></script>
+  <script src="../assets/cyntora-reports.js?v=8b74aa71" defer></script>
+</head>
+<body>
+
+<nav class="report-nav" data-section-nav>
+  <div class="report-nav__inner">
+    <div class="report-nav__brand">
+      <img src="../assets/cyntora-logo.svg" alt="Cyntora">
+      <div class="divider"></div>
+      <div class="label">Fröbergs</div>
+    </div>
+    <div class="report-nav__links" data-section-links></div>
+    <div class="report-nav__dropdown" data-section-dropdown-wrap>
+      <label for="section-jump">Sektion</label>
+      <select id="section-jump" data-section-jump></select>
+    </div>
+    <div class="report-nav__period">
+      <label for="period">Period</label>
+      <select id="period" data-period-switcher data-current="2026-05" data-index-url="index.json" disabled>
+        <option value="2026-05.html" selected>Maj 2026</option>
+      </select>
+    </div>
+  </div>
+</nav>
+
+
+<section class="cover" id="cover">
+  <div class="cover__top">
+    <img src="../assets/cyntora-logo-white.svg" alt="Cyntora">
+    <div class="meta">
+      Maj 2026
+· Detaljerad statistik    </div>
+  </div>
+  <div class="cover__center">
+    <div class="cover__eyebrow">Cyntora månadsrapport</div>
+    <h1>Fröbergs</h1>
+      <p class="cover__kicker">I maj 2026 landade Fröbergs webbplats på 4 986 användare (-28,1 % jämfört med samma månad förra året), ett tapp som speglar den lägre Google Ads-budgeten under perioden.</p>
+<p class="cover__kicker">Trots det lägre trafikvolymerna levererade Google Ads ett ROAS om 6,09 - en förbättring med +36,6 % jämfört med maj 2025 - vilket visar att pengarna allokerades till de mest köpbenägna sökningarna. Engagement rate på webbplatsen höll sig på 90,2 % och Bounce Rate på 9,8 %, vilket tyder på att de besökare som kom var väl matchade mot innehållet.</p>  </div>
+  <div class="cover__bottom">
+    <div class="col">
+      <div class="label">Period</div>
+      <div class="val">Maj 2026</div>
+    </div>
+    <div class="col">
+      <div class="label">Datakällor</div>
+      <div class="val">GA4, Google Ads</div>
+    </div>
+    <div class="col">
+      <div class="label">Levererat av</div>
+      <div class="val">Cyntora</div>
+    </div>
+  </div>
+</section>
+
+<section class="page page--paper">
+  <div class="wrap">
+    <div class="section" id="section-ga4_overview" data-section-id="ga4_overview" data-section-title="Google Analytics 4">
+  <div class="section-title">
+<img class="section-title__icon" src="../assets/icons/ga4.svg" alt="">    <span>Google Analytics 4</span>
+  </div>
+
+
+    <div class="band">Overview</div>
+<div class="card-grid card-grid--asym"><div class="card card--icon"><img src="../assets/icons/ga4.svg" alt="GA4"></div><div class="chart-card">
+  <div class="chart-card__head">
+    <span>Total Users</span>
+    <span class="right">
+<span class="value">4 986</span>        <span class="trend trend--down">-28% YoY</span>
+    </span>
+  </div>
+  <div class="chart-wrap chart-wrap--short">
+    <canvas id="ga4-users-1" data-cyntora='{"kind": "sparkline", "labels": ["1 May", "2 May", "3 May", "4 May", "5 May", "6 May", "7 May", "8 May", "9 May", "10 May", "11 May", "12 May", "13 May", "14 May", "15 May", "16 May", "17 May", "18 May", "19 May", "20 May", "21 May", "22 May", "23 May", "24 May", "25 May", "26 May", "27 May", "28 May", "29 May", "30 May", "31 May"], "series": [{"color": "#1f4e4a", "label": "April 2026", "values": [172, 148, 141, 265, 276, 226, 214, 188, 101, 163, 247, 307, 206, 155, 200, 134, 140, 201, 187, 214, 203, 187, 109, 138, 193, 232, 266, 249, 160, 88, 132]}, {"color": "#b9d2cf", "label": "April 2025", "values": [170, 177, 134, 131, 272, 475, 303, 299, 266, 148, 172, 330, 371, 306, 289, 280, 171, 189, 309, 313, 307, 358, 262, 156, 187, 324, 278, 244, 180, 259]}]}'></canvas>
+  </div>
+</div><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/ga4.svg" alt="">      Bounce Rate
+    </div>
+      <span class="trend trend--up">+7% YoY</span>
+  </div>
+    <div class="card__value card__value--big">9.78%</div>
+</div></div>
+<div class="card-grid"><div class="chart-card">
+  <div class="chart-card__head">
+    <span>Total Users</span>
+    <span class="right">
+    </span>
+  </div>
+
+  <div class="donut-row">
+    <div class="chart-wrap chart-wrap--short" style="position: relative;">
+      <canvas id="ga4-donut-2" data-cyntora='{"colors": ["#4285F4", "#34A853", "#FBBC04", "#EA4335", "#AB47BC", "#00ACC1", "#FF7043", "#9E9E9E", "#7E57C2", "#26A69A"], "kind": "donut", "labels": ["Cross-network", "Organic Search", "Paid Search", "Direct", "Referral", "Unassigned", "AI Assistant", "Organic Social"], "values": [2409.0, 1124.0, 921.0, 490.0, 89.0, 50.0, 6.0, 2.0]}'></canvas>
+      <div style="
+        position: absolute; top: 50%; left: 50%;
+        transform: translate(-50%, -50%); text-align: center;">
+        <div style="font-size: 18px; font-weight: 700;">4 986</div>
+<div style="font-size: 10px; color: #9a9a9a;">Total Users</div>      </div>
+    </div>
+    <div class="legend">
+      <div class="row">
+        <span class="swatch" style="background: #4285F4;"></span>
+        <span class="name">Cross-network</span>
+        <span class="value">2 409</span>
+      </div>
+      <div class="row">
+        <span class="swatch" style="background: #34A853;"></span>
+        <span class="name">Organic Search</span>
+        <span class="value">1 124</span>
+      </div>
+      <div class="row">
+        <span class="swatch" style="background: #FBBC04;"></span>
+        <span class="name">Paid Search</span>
+        <span class="value">921</span>
+      </div>
+      <div class="row">
+        <span class="swatch" style="background: #EA4335;"></span>
+        <span class="name">Direct</span>
+        <span class="value">490</span>
+      </div>
+      <div class="row">
+        <span class="swatch" style="background: #AB47BC;"></span>
+        <span class="name">Referral</span>
+        <span class="value">89</span>
+      </div>
+      <div class="row">
+        <span class="swatch" style="background: #00ACC1;"></span>
+        <span class="name">Unassigned</span>
+        <span class="value">50</span>
+      </div>
+      <div class="row">
+        <span class="swatch" style="background: #FF7043;"></span>
+        <span class="name">AI Assistant</span>
+        <span class="value">6</span>
+      </div>
+      <div class="row">
+        <span class="swatch" style="background: #9E9E9E;"></span>
+        <span class="name">Organic Social</span>
+        <span class="value">2</span>
+      </div>
+    </div>
+  </div>
+</div><div class="chart-card">
+  <div class="chart-card__head">
+    <span>Average Engagement Time Per Session</span>
+    <span class="right">
+<span class="value">00:03:26</span>    </span>
+  </div>
+  <div class="chart-wrap chart-wrap--short">
+    <canvas id="ga4-eng-3" data-cyntora='{"format": "duration", "kind": "line", "labels": ["1 May", "2 May", "3 May", "4 May", "5 May", "6 May", "7 May", "8 May", "9 May", "10 May", "11 May", "12 May", "13 May", "14 May", "15 May", "16 May", "17 May", "18 May", "19 May", "20 May", "21 May", "22 May", "23 May", "24 May", "25 May", "26 May", "27 May", "28 May", "29 May", "30 May", "31 May"], "series": [{"color": "#1f4e4a", "label": "April 2026", "values": [92.4, 106.4, 102.7, 186.1, 216.8, 201.0, 250.6, 197.3, 123.2, 130.9, 315.1, 312.9, 210.7, 94.2, 104.6, 95.9, 128.2, 294.6, 185.1, 241.9, 188.6, 161.6, 82.1, 90.3, 191.3, 206.7, 267.8, 275.6, 632.0, 140.5, 133.8]}, {"color": "#b9d2cf", "label": "April 2025", "values": [172.3, 367.0, 269.6, 153.7, 174.1, 200.0, 261.9, 220.0, 190.5, 166.2, 137.1, 184.3, 223.3, 210.7, 245.5, 206.5, 110.0, 169.7, 186.4, 168.3, 228.6, 260.3, 236.1, 111.5, 163.7, 186.4, 202.9, 283.5, 120.4, 163.1, 109.8]}]}'></canvas>
+  </div>
+</div></div>
+<div class="card-grid"><div class="chart-card">
+  <div class="chart-card__head">
+    <span>New Users</span>
+    <span class="right">
+<span class="value">4 570</span>        <span class="trend trend--down">-29% YoY</span>
+    </span>
+  </div>
+  <div class="chart-wrap chart-wrap--short">
+    <canvas id="ga4-new-users-4" data-cyntora='{"format": "number", "integer": true, "kind": "line", "labels": ["1 May", "2 May", "3 May", "4 May", "5 May", "6 May", "7 May", "8 May", "9 May", "10 May", "11 May", "12 May", "13 May", "14 May", "15 May", "16 May", "17 May", "18 May", "19 May", "20 May", "21 May", "22 May", "23 May", "24 May", "25 May", "26 May", "27 May", "28 May", "29 May", "30 May", "31 May"], "series": [{"color": "#1f4e4a", "label": "Maj 2026", "values": [145, 121, 106, 205, 210, 171, 163, 154, 83, 149, 199, 233, 141, 138, 171, 123, 121, 145, 135, 165, 159, 144, 91, 117, 118, 180, 202, 178, 108, 81, 114]}, {"color": "#b9d2cf", "label": "Maj 2025", "values": [145, 135, 116, 107, 226, 393, 238, 237, 223, 124, 154, 273, 292, 240, 224, 222, 154, 166, 246, 258, 248, 296, 220, 140, 166, 265, 224, 187, 161, 223, 117]}]}'></canvas>
+  </div>
+</div><div class="chart-card">
+  <div class="chart-card__head">
+    <span>Total Users</span>
+    <span class="right">
+<span class="value">4 986</span>        <span class="trend trend--down">-28% YoY</span>
+    </span>
+  </div>
+  <div class="chart-wrap chart-wrap--short">
+    <canvas id="ga4-total-users-5" data-cyntora='{"format": "number", "integer": true, "kind": "line", "labels": ["1 May", "2 May", "3 May", "4 May", "5 May", "6 May", "7 May", "8 May", "9 May", "10 May", "11 May", "12 May", "13 May", "14 May", "15 May", "16 May", "17 May", "18 May", "19 May", "20 May", "21 May", "22 May", "23 May", "24 May", "25 May", "26 May", "27 May", "28 May", "29 May", "30 May", "31 May"], "series": [{"color": "#1f4e4a", "label": "Maj 2026", "values": [172, 148, 141, 265, 276, 226, 214, 188, 101, 163, 247, 307, 206, 155, 200, 134, 140, 201, 187, 214, 203, 187, 109, 138, 193, 232, 266, 249, 160, 88, 132]}, {"color": "#b9d2cf", "label": "Maj 2025", "values": [170, 177, 134, 131, 272, 475, 303, 299, 266, 148, 172, 330, 371, 306, 289, 280, 171, 189, 309, 313, 307, 358, 262, 156, 187, 324, 278, 244, 180, 259, 134]}]}'></canvas>
+  </div>
+</div></div>
+<div class="chart-card">
+  <div class="chart-card__head">
+    <span>Conversions</span>
+    <span class="right">
+    </span>
+  </div>
+
+  <div class="donut-row">
+    <div class="chart-wrap chart-wrap--short" style="position: relative;">
+      <canvas id="ga4-donut-6" data-cyntora='{"colors": ["#4285F4", "#34A853", "#FBBC04", "#EA4335", "#AB47BC", "#00ACC1", "#FF7043", "#9E9E9E", "#7E57C2", "#26A69A"], "kind": "donut", "labels": ["Cross-network", "Organic Search", "Paid Search", "Direct", "Referral", "Unassigned", "AI Assistant", "Organic Social"], "values": [73.0, 30.0, 48.0, 20.0, 11.0, 0.0, 0.0, 0.0]}'></canvas>
+      <div style="
+        position: absolute; top: 50%; left: 50%;
+        transform: translate(-50%, -50%); text-align: center;">
+        <div style="font-size: 18px; font-weight: 700;">182</div>
+<div style="font-size: 10px; color: #9a9a9a;">Conversions</div>      </div>
+    </div>
+    <div class="legend">
+      <div class="row">
+        <span class="swatch" style="background: #4285F4;"></span>
+        <span class="name">Cross-network</span>
+        <span class="value">73</span>
+      </div>
+      <div class="row">
+        <span class="swatch" style="background: #34A853;"></span>
+        <span class="name">Organic Search</span>
+        <span class="value">30</span>
+      </div>
+      <div class="row">
+        <span class="swatch" style="background: #FBBC04;"></span>
+        <span class="name">Paid Search</span>
+        <span class="value">48</span>
+      </div>
+      <div class="row">
+        <span class="swatch" style="background: #EA4335;"></span>
+        <span class="name">Direct</span>
+        <span class="value">20</span>
+      </div>
+      <div class="row">
+        <span class="swatch" style="background: #AB47BC;"></span>
+        <span class="name">Referral</span>
+        <span class="value">11</span>
+      </div>
+      <div class="row">
+        <span class="swatch" style="background: #00ACC1;"></span>
+        <span class="name">Unassigned</span>
+        <span class="value">0</span>
+      </div>
+      <div class="row">
+        <span class="swatch" style="background: #FF7043;"></span>
+        <span class="name">AI Assistant</span>
+        <span class="value">0</span>
+      </div>
+      <div class="row">
+        <span class="swatch" style="background: #9E9E9E;"></span>
+        <span class="name">Organic Social</span>
+        <span class="value">0</span>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="band">Pages</div>
+<div class="data-table-wrap">
+<div class="head">Visar 10 av 24 sidor</div>  <table class="data-table">
+    <thead>
+      <tr>
+        <th>SIDA</th>
+<th>SESSIONS</th><th>TOTAL USERS</th><th>USER ENGAGEMENT</th><th>VIEWS</th><th>EVENT COUNT</th>      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>/</td>
+          <td>
+            1 156
+          </td>
+          <td>
+            816
+          </td>
+          <td>
+            37:57:53
+          </td>
+          <td>
+            9 875
+          </td>
+          <td>
+            23 097
+          </td>
+      </tr>
+      <tr>
+        <td>/broschyrstall-a4-for-vagg-7-fack-112494</td>
+          <td>
+            125
+          </td>
+          <td>
+            101
+          </td>
+          <td>
+            00:21:51
+          </td>
+          <td>
+            331
+          </td>
+          <td>
+            932
+          </td>
+      </tr>
+      <tr>
+        <td>/catalogsearch/result</td>
+          <td>
+            121
+          </td>
+          <td>
+            53
+          </td>
+          <td>
+            04:09:35
+          </td>
+          <td>
+            1 100
+          </td>
+          <td>
+            3 059
+          </td>
+      </tr>
+      <tr>
+        <td>/stamplar/bygg-stampel</td>
+          <td>
+            100
+          </td>
+          <td>
+            94
+          </td>
+          <td>
+            02:52:44
+          </td>
+          <td>
+            557
+          </td>
+          <td>
+            1 352
+          </td>
+      </tr>
+      <tr>
+        <td>/checkout/cart</td>
+          <td>
+            72
+          </td>
+          <td>
+            57
+          </td>
+          <td>
+            01:30:22
+          </td>
+          <td>
+            644
+          </td>
+          <td>
+            1 482
+          </td>
+      </tr>
+      <tr>
+        <td>/flaggstang-8-meter-x561000-08</td>
+          <td>
+            61
+          </td>
+          <td>
+            59
+          </td>
+          <td>
+            00:50:06
+          </td>
+          <td>
+            192
+          </td>
+          <td>
+            567
+          </td>
+      </tr>
+      <tr>
+        <td>/flaggor/bordsflaggor</td>
+          <td>
+            58
+          </td>
+          <td>
+            51
+          </td>
+          <td>
+            01:19:04
+          </td>
+          <td>
+            422
+          </td>
+          <td>
+            1 225
+          </td>
+      </tr>
+      <tr>
+        <td>/bordsflagga-sverige-24-x-16-cm-542524</td>
+          <td>
+            57
+          </td>
+          <td>
+            47
+          </td>
+          <td>
+            00:28:44
+          </td>
+          <td>
+            264
+          </td>
+          <td>
+            708
+          </td>
+      </tr>
+      <tr>
+        <td>/serviceorder-faktura-a4-2-ex-701403</td>
+          <td>
+            57
+          </td>
+          <td>
+            44
+          </td>
+          <td>
+            00:01:34
+          </td>
+          <td>
+            144
+          </td>
+          <td>
+            391
+          </td>
+      </tr>
+      <tr>
+        <td>/sakerhet/ovriga-skap/mobilforvaring</td>
+          <td>
+            56
+          </td>
+          <td>
+            53
+          </td>
+          <td>
+            00:57:21
+          </td>
+          <td>
+            306
+          </td>
+          <td>
+            781
+          </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
+
+
+<div class="takeaway takeaway--review">
+  <div class="takeaway__label">Sammanfattning</div>
+  <p class="takeaway__body">Webbplatsen tog emot 4 986 användare i maj 2026, en minskning med 28,1 % jämfört med maj 2025, vilket är i linje med den reducerade annonsaktiviteten under månaden. Besökskvaliteten var god med en engagement rate på 90,2 % och en Bounce Rate om 9,8 %, och Cross-network-kanalen stod för den enskilt största andelen trafik med 2 409 användare. GA4 registrerade 182 key events under perioden, vilket motsvarar en minskning med 31,3 % jämfört med samma period förra året. Eftersom Bounce Rate är ovanligt låg bör GA4-konfigurationen kontrolleras så att mätningen speglar faktisk användarinteraktion. Eftersom Engagement Rate är ovanligt hög bör GA4-konfigurationen kontrolleras så att mätningen speglar faktisk användarinteraktion.</p>
+</div>
+</div>
+  </div>
+</section>
+<section class="page">
+  <div class="wrap">
+    <div class="section" id="section-google_ads" data-section-id="google_ads" data-section-title="Google Ads">
+  <div class="section-title">
+<img class="section-title__icon" src="../assets/icons/google-ads.svg" alt="">    <span>Google Ads</span>
+  </div>
+
+
+    <div class="band">SEM</div><div class="source-attr">Spårat konverteringsvärde är baserat på konverteringshändelser konfigurerade i Google Ads-kontot. Använd Konverteringar och Kostnad som primära indikatorer.</div>
+<div class="card-grid"><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/google-ads.svg" alt="">      Konverteringar
+    </div>
+      <span class="trend trend--down">-8% YoY</span>
+  </div>
+    <div class="card__value card__value--big">138</div>
+</div><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/google-ads.svg" alt="">      Spårat konv.värde
+    </div>
+      <span class="trend trend--down">-25% YoY</span>
+  </div>
+    <div class="card__value card__value--big">210 K kr</div>
+</div><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/google-ads.svg" alt="">      Spårad ROAS
+    </div>
+      <span class="trend trend--up">+37% YoY</span>
+  </div>
+    <div class="card__value card__value--big">6.09</div>
+</div><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/google-ads.svg" alt="">      Kostnad
+    </div>
+      <span class="trend trend--down">-45% YoY</span>
+  </div>
+    <div class="card__value card__value--big">34 K kr</div>
+</div><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/google-ads.svg" alt="">      Exponeringar
+    </div>
+      <span class="trend trend--down">-45% YoY</span>
+  </div>
+    <div class="card__value card__value--big">277 285</div>
+</div><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/google-ads.svg" alt="">      Klick
+    </div>
+      <span class="trend trend--down">-34% YoY</span>
+  </div>
+    <div class="card__value card__value--big">4 063</div>
+</div><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/google-ads.svg" alt="">      Klickfrekvens
+    </div>
+      <span class="trend trend--up">+19% YoY</span>
+  </div>
+    <div class="card__value card__value--big">1.47%</div>
+</div></div>
+<div class="chart-card">
+  <div class="chart-card__head">
+    <span>Kostnad vs spårat konv.värde</span>
+    <span class="right">
+    </span>
+  </div>
+  <div class="chart-wrap">
+    <canvas id="ads-spend-7" data-cyntora='{"currency": "SEK", "dual_axis": true, "format": "currency", "kind": "line", "labels": ["1 May", "2 May", "3 May", "4 May", "5 May", "6 May", "7 May", "8 May", "9 May", "10 May", "11 May", "12 May", "13 May", "14 May", "15 May", "16 May", "17 May", "18 May", "19 May", "20 May", "21 May", "22 May", "23 May", "24 May", "25 May", "26 May", "27 May", "28 May", "29 May", "30 May", "31 May"], "series": [{"color": "#1f4e4a", "currency": "SEK", "format": "currency", "label": "Kostnad", "values": [771.52, 660.38, 946.14, 1283.44, 1486.29, 1540.64, 1492.46, 1016.8, 407.76, 977.03, 1574.56, 1082.13, 1339.77, 1064.43, 1402.31, 648.35, 727.31, 1508.57, 954.46, 1960.45, 1190.51, 1474.43, 311.75, 694.08, 1397.47, 1433.72, 1249.06, 1213.32, 1636.75, 412.31, 607.43]}, {"color": "#b9d2cf", "currency": "SEK", "format": "currency", "label": "Sp\u00e5rat konv.v\u00e4rde", "values": [2853.0, 1377.09, 29239.0, 14615.4, 6512.41, 11104.44, 11649.0, 5082.0, 137.0, 3163.0, 4742.0, 10372.0, 13083.0, 310.0, 1273.84, 1592.16, 7782.8, 9405.04, 9303.0, 6619.0, 11471.96, 2548.0, 0.0, 0.0, 5711.0, 9798.59, 8247.41, 19715.0, 1341.0, 99.0, 665.0]}]}'></canvas>
+  </div>
+</div>
+<div class="band">Top Campaigns</div>
+<div class="data-table-wrap">
+<div class="head">Showing 5 of 5 Rows</div>  <table class="data-table">
+    <thead>
+      <tr>
+        <th>KAMPANJ</th>
+<th>KOSTNAD</th><th>KONVERTERINGAR</th><th>SPÅRAT KONV.VÄRDE</th><th>ROAS</th><th>EXPONERINGAR</th><th>KLICK</th>      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>PMax | Fröbergs | Topprodukter</td>
+          <td>
+            15 K kr
+          </td>
+          <td>
+            50
+          </td>
+          <td>
+            86 K kr
+          </td>
+          <td>
+            5,60
+          </td>
+          <td>
+            72 292
+          </td>
+          <td>
+            1 128
+          </td>
+      </tr>
+      <tr>
+        <td>PMAX | Fröbergs | Resterande Produkter</td>
+          <td>
+            10 K kr
+          </td>
+          <td>
+            26
+          </td>
+          <td>
+            44 K kr
+          </td>
+          <td>
+            4,38
+          </td>
+          <td>
+            134 520
+          </td>
+          <td>
+            1 693
+          </td>
+      </tr>
+      <tr>
+        <td>PMax | Fröbil | Topprodukter</td>
+          <td>
+            5 K kr
+          </td>
+          <td>
+            6
+          </td>
+          <td>
+            14 K kr
+          </td>
+          <td>
+            2,73
+          </td>
+          <td>
+            29 111
+          </td>
+          <td>
+            430
+          </td>
+      </tr>
+      <tr>
+        <td>PMAX | Fröbil | Resterande Produkter</td>
+          <td>
+            3 K kr
+          </td>
+          <td>
+            6
+          </td>
+          <td>
+            13 K kr
+          </td>
+          <td>
+            4,07
+          </td>
+          <td>
+            40 305
+          </td>
+          <td>
+            434
+          </td>
+      </tr>
+      <tr>
+        <td>Sök: Branding Fröbergs</td>
+          <td>
+            674,24 kr
+          </td>
+          <td>
+            50
+          </td>
+          <td>
+            53 K kr
+          </td>
+          <td>
+            78,02
+          </td>
+          <td>
+            1 057
+          </td>
+          <td>
+            378
+          </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
+<div class="takeaway takeaway--neutral">
+  <div class="takeaway__label">Sammanfattning</div>
+  <p class="takeaway__body">Google Ads-kostnaden uppgick till 34 466 SEK i maj 2026, en minskning med 44,9 % jämfört med maj 2025, och kampanjerna levererade ett spårat konverteringsvärde om 209 812 SEK. ROAS landade på 6,09, en förbättring med 36,6 % jämfört med föregående år, vilket speglar att den minskade budgeten koncentrerades till de mest effektiva placeringarna. CTR ökade till 1,47 % (+18,6 % YoY) och antalet spårade konverteringar uppgick till 138, en mindre nedgång om 8,0 % jämfört med maj 2025.</p>
+</div>
+</div>
+  </div>
+</section>
+
+<section class="page page--dark" id="section-next-steps" data-section-id="next-steps" data-section-title="Vad vi gör härnäst">
+  <div class="wrap">
+    <div class="eyebrow">Vad händer härnäst</div>
+    <div class="next-steps">
+      <h2>Vad vi gör härnäst</h2>
+      <ul>
+<li>Vi kommer att granska budgetfördelningen mellan kampanjerna inför juni för att säkerställa att de starkaste konverterarna tilldelas tillräckliga resurser.</li><li>Vi kommer att analysera vilka produktkategorier och sökord som genererade konverteringsvärde i maj och justera bud-strategin i PMax-kampanjerna utifrån den insikten.</li><li>Vi kommer att se över landningssidornas relevans för de betalda sökflödena, med fokus på att förbättra övergången från annonsklick till konvertering.</li><li>Vi kommer att följa upp utvecklingen i CTR och Bounce Rate löpande under juni för att fånga eventuella förändringar i annonsprestation tidigt.</li><li>Vi kommer att säkerställa att kampanjstrukturen för Fröbil och Fröbergs är optimal inför sommarsäsongen och justera vid behov.</li>      </ul>
+    </div>
+  </div>
+</section>
+
+
+</body>
+</html>
